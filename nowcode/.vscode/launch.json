@@ -1,0 +1,116 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.Fibonacci.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution(1)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.RectCover.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution(2)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.listFromTailToHead.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution(3)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.minNumberInRotateArray.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution(4)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.reConstrucBinaryTree.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution(5)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.replaceSpace.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution(6)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.stackToQueue.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution(7)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.twoDimensionSearch.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution(8)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Iluo.zeroOneKnapSack.Solution",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of remote debuggee>"
+        }
+    ]
+}

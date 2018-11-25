@@ -1,4 +1,4 @@
-package Iluo.twoDimensionSearch;
+package iluo.twodimensionsearch;
 
 /**
  * Created by Yang Xing Luo on 2018/9/22.

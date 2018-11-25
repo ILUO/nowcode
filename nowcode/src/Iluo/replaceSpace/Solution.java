@@ -1,4 +1,4 @@
-package Iluo.replaceSpace;
+package iluo.replacespace;
 
 /**
  * Created by Yang Xing Luo on 2018/9/23.

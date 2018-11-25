@@ -1,4 +1,4 @@
-package Iluo.reConstrucBinaryTree;
+package iluo.reconstrucbinarytree;
 
 /**
  * Created by Yang Xing Luo on 2018/10/10.
