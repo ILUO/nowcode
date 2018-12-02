@@ -1,4 +1,4 @@
-package iluo.findKthToTail;
+package iluo.MergeList;
 
 public class ListNode {
     int val;

@@ -1,4 +1,4 @@
-package iluo.findKthToTail;
+package iluo.reverseList;
 
 public class ListNode {
     int val;

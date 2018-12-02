@@ -41,7 +41,7 @@ public class Solution {
             node.next = temp;
             node = temp;
         }
-        int k = 1;
+        int k = 10;
 
         ListNode listNode = solution.FindKthToTail(null,k);
         if(listNode == null){
