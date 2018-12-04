@@ -1,9 +1,27 @@
-package iluo.reconstrucbinarytree;
+package iluo.Mirror;
 
-/**
- * Created by Yang Xing Luo on 2018/10/10.
- */
 public class Solution {
+    public void Mirror(TreeNode root) {
+        if(root == null){
+            return;
+        }
+        TreeNode temp;
+        if(root.left == null && root.right==null){
+            return;
+        }else{
+            temp = root.left;
+            root.left = root.right;
+            root.right = temp;
+        }
+        if(root.left != null){
+            Mirror(root.left);
+        }
+        if(root.right != null){
+            Mirror(root.right);
+        }
+    }
+
+
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         if(pre.length>0){
             TreeNode ancient = new TreeNode(pre[0]);
@@ -75,22 +93,21 @@ public class Solution {
         }
     }
 
-    public static void main(String [] args){
-        int [] pre = {1,2,4,7,3,5,6,8};
-        int [] in = {4,7,2,1,5,3,8,6};
+
+    public static  void main(String []args){
+        int [] pre1 = {1,2,4,7,3,5,6,8};
+        int [] in1 = {4,7,2,1,5,3,8,6};
+
         Solution solution = new Solution();
-        solution.reConstructBinaryTree(pre,in);
+        TreeNode root = solution.reConstructBinaryTree(pre1,in1);
+        System.out.println(2333);
+
+        solution.Mirror(root);
+
+        solution.preCons(root);
+        solution.inCons(root);
     }
 
 
-}
 
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
 }

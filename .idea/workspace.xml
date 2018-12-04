@@ -2,50 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec1185d-1547-4651-85fa-83869b4bf693" name="Default" comment="MergeList">
-      <change afterPath="$PROJECT_DIR$/src/iluo/MergeList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iluo/MergeList/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iluo/reverseList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iluo/reverseList/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/HasSubtree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/HasSubtree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/Mirror/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/Mirror/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/TestFOO/Foo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nowcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/Power/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/Power/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/coinchanging/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/coinchanging/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/fibonacci/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/fibonacci/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/jumpfloortwo/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/jumpfloortwo/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/listfromtailtohead/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/listfromtailtohead/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/listfromtailtohead/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/listfromtailtohead/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/minnumberinrotatearray/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/minnumberinrotatearray/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/numberofone/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/numberofone/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/reconstrucbinarytree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/reconstrucbinarytree/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/reconstrucbinarytree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/reconstrucbinarytree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/rectcover/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/rectcover/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/replacespace/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/replacespace/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/stacktoqueue/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/stacktoqueue/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/twodimensionsearch/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/twodimensionsearch/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nowcode/iluo/zerooneknapsack/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nowcode/iluo/zerooneknapsack/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/Power/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/Power/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/coinchanging/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/coinchanging/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/fibonacci/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/fibonacci/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/findKthToTail/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/findKthToTail/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/findKthToTail/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/findKthToTail/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/jumpfloortwo/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/jumpfloortwo/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/listfromtailtohead/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/listfromtailtohead/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/minnumberinrotatearray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/minnumberinrotatearray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/numberofone/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/numberofone/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/reOrderArray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/reOrderArray/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iluo/reconstrucbinarytree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/reconstrucbinarytree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/rectcover/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/rectcover/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/replacespace/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/replacespace/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/stacktoqueue/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/stacktoqueue/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/twodimensionsearch/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/twodimensionsearch/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/zerooneknapsack/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/zerooneknapsack/Solution.java" afterDir="false" />
     </list>
     <ignored path="nowcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,34 +34,30 @@
     <favorites_list name="nowcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/HasSubtree/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="118" selection-start-line="118" selection-end-line="119" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/Mirror/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/MergeList/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/Mirror/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iluo/reverseList/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iluo/MergeList/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="465">
+              <caret line="103" column="56" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -123,22 +84,26 @@
         <option value="$PROJECT_DIR$/src/iluo/reverseList/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/MergeList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/iluo/MergeList/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/HasSubtree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/iluo/reconstrucbinarytree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/TestFOO/Foo.java" />
+        <option value="$PROJECT_DIR$/src/iluo/HasSubtree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/Mirror/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/iluo/Mirror/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="293" />
-    <option name="y" value="53" />
-    <option name="width" value="1390" />
-    <option name="height" value="1000" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,25 +127,27 @@
               <item name="nowcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
-              <item name="MergeList" type="462c0819:PsiDirectoryNode" />
+              <item name="HasSubtree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nowcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="nowcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
-              <item name="reverseList" type="462c0819:PsiDirectoryNode" />
+              <item name="Mirror" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543739847894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543939110861" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -205,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -298,27 +265,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.Power.Solution" />
+    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.TestFOO.Foo" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.Power.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.findKthToTail.Solution" />
-      <module name="nowcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.findKthToTail.*" />
+          <option name="PATTERN" value="iluo.TestFOO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,13 +307,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.coinchanging.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.HasSubtree.Solution" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.coinchanging.*" />
+          <option name="PATTERN" value="iluo.HasSubtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.Mirror.Solution" />
+      <module name="nowcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.Mirror.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -531,19 +498,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Foo" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (5)" />
+        <item itemvalue="Application.Foo" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -567,7 +534,11 @@
       <workItem from="1543503185497" duration="5630000" />
       <workItem from="1543541226619" duration="2123000" />
       <workItem from="1543587655626" duration="61000" />
-      <workItem from="1543736707483" duration="3126000" />
+      <workItem from="1543736707483" duration="3870000" />
+      <workItem from="1543840834159" duration="4817000" />
+      <workItem from="1543845816928" duration="1363000" />
+      <workItem from="1543847924069" duration="4047000" />
+      <workItem from="1543937892232" duration="1090000" />
     </task>
     <task id="LOCAL-00001" summary="findKthToTail">
       <created>1543455003854</created>
@@ -576,17 +547,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543455003854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MergeList">
+      <created>1543739854372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543739854372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17561000" />
+    <option name="totallyTimeSpent" value="29622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23767313" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -595,8 +573,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3610811" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.08972973" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18378378" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47027028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -686,10 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/reverseList/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/iluo/MergeList/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="238">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -704,10 +682,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/MergeList/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/iluo/reverseList/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="244">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/HasSubtree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/reconstrucbinarytree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" selection-start-line="78" selection-end-line="81" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/TestFOO/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/Mirror/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/HasSubtree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="118" selection-start-line="118" selection-end-line="119" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/Mirror/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="103" column="56" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
         </state>
       </provider>
     </entry>
