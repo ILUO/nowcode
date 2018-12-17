@@ -1,42 +1,6 @@
-package iluo.HasSubtree;
+package iluo.util;
 
-
-public class Solution {
-    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
-        boolean flag = false;
-        if(root2 == null || root1 == null){
-            return false;
-        }else{
-            if(root1.val == root2.val){
-                flag = doseHave(root1,root2);
-            }
-            if(!flag){
-                flag = HasSubtree(root1.left,root2);
-            }
-            if(!flag){
-                flag = HasSubtree(root1.right,root2);
-            }
-            return  flag;
-        }
-    }
-
-
-    private boolean doseHave(TreeNode root1,TreeNode root2){
-        if(root2 == null){
-            return  true;
-        }
-        if(root1 == null){
-            return false;
-        }
-        if(root1.val != root2.val){
-            return false;
-        }
-        return doseHave(root1.left,root2.left) && doseHave(root1.right,root2.right);
-    }
-
-
-
-
+public class ReConstructBinaryTree {
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         if(pre.length>0){
             TreeNode ancient = new TreeNode(pre[0]);
@@ -107,19 +71,4 @@ public class Solution {
             inCons(treeNode.right);
         }
     }
-
-
-    public static void main(String [] args){
-        int [] pre1 = {1,2,4,7,3,5,6,8};
-        int [] in1 = {4,7,2,1,5,3,8,6};
-        int [] pre2 = {3,5,6,8};
-        int [] in2 = {5,3,8,6};
-
-        Solution solution = new Solution();
-        TreeNode root1 = solution.reConstructBinaryTree(pre1,in1);
-        TreeNode root2 = solution.reConstructBinaryTree(pre2,in2);
-
-        System.out.println(solution.HasSubtree(root1,root2));
-    }
-
 }
