@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bec1185d-1547-4651-85fa-83869b4bf693" name="Default" comment="PrintFromTopToBottom">
-      <change afterPath="$PROJECT_DIR$/src/iluo/FindPath/Solution.java" afterDir="false" />
+    <list default="true" id="bec1185d-1547-4651-85fa-83869b4bf693" name="Default" comment="FindPath">
+      <change afterPath="$PROJECT_DIR$/src/iluo/Clone/RandomListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/Clone/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/VerifySquenceOfBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/VerifySquenceOfBST/Solution.java" afterDir="false" />
     </list>
     <ignored path="nowcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,14 +29,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/FindPath/Solution.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/Clone/RandomListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+            <state relative-caret-position="136">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iluo/Clone/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -86,6 +96,8 @@
         <option value="$PROJECT_DIR$/src/iluo/PrintFromTopToBottom/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/VerifySquenceOfBST/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/FindPath/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/Clone/RandomListNode.java" />
+        <option value="$PROJECT_DIR$/src/iluo/Clone/Solution.java" />
       </list>
     </option>
   </component>
@@ -100,6 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,7 +137,7 @@
               <item name="nowcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
-              <item name="FindPath" type="462c0819:PsiDirectoryNode" />
+              <item name="Clone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nowcode" type="b2602c69:ProjectViewProjectNode" />
@@ -136,14 +150,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545232366474" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545494969853" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../work/iqSystem" />
     <property name="project.structure.last.edited" value="Project" />
@@ -169,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -262,13 +274,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.minStack.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.Clone.Solution" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.minStack.*" />
+          <option name="PATTERN" value="iluo.Clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -495,19 +507,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +555,9 @@
       <workItem from="1544974783698" duration="3066000" />
       <workItem from="1545059015095" duration="3063000" />
       <workItem from="1545135117419" duration="8970000" />
-      <workItem from="1545228687525" duration="3494000" />
+      <workItem from="1545228687525" duration="3840000" />
+      <workItem from="1545393952432" duration="3734000" />
+      <workItem from="1545491336126" duration="3628000" />
     </task>
     <task id="LOCAL-00001" summary="findKthToTail">
       <created>1543455003854</created>
@@ -587,17 +601,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545061409504</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="FindPath">
+      <created>1545232375624</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545232375624</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59181000" />
+    <option name="totallyTimeSpent" value="66889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26149586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26814404" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -606,8 +627,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27243245" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6345946" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29405406" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5556757" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -648,7 +669,8 @@
     <MESSAGE value="printMatrix" />
     <MESSAGE value="minStack" />
     <MESSAGE value="PrintFromTopToBottom" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrintFromTopToBottom" />
+    <MESSAGE value="FindPath" />
+    <option name="LAST_COMMIT_MESSAGE" value="FindPath" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -830,11 +852,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/FindPath/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+        <state relative-caret-position="142">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/Clone/Solutiohn.java" />
+    <entry file="file://$PROJECT_DIR$/src/iluo/Clone/RandomListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/Clone/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
