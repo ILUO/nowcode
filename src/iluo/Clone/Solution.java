@@ -7,6 +7,7 @@ import java.util.ArrayList;
  *  2.make origin node.random = new node.next.random
  *  3.split origin node and new node
  */
+
 public class Solution {
     public RandomListNode Clone(RandomListNode pHead) {
         ArrayList<RandomListNode> originListNodes = new ArrayList<>();

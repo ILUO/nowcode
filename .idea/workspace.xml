@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bec1185d-1547-4651-85fa-83869b4bf693" name="Default" comment="FindPath">
-      <change afterPath="$PROJECT_DIR$/src/iluo/Clone/RandomListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iluo/Clone/Solution.java" afterDir="false" />
+    <list default="true" id="bec1185d-1547-4651-85fa-83869b4bf693" name="Default" comment="GetLeastNumbers">
+      <change afterPath="$PROJECT_DIR$/src/iluo/Convert/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/GetLeastNumbers/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/MoreThanHalfNum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/Permutation/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iluo/Clone/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/Clone/Solution.java" afterDir="false" />
     </list>
     <ignored path="nowcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,24 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iluo/Clone/RandomListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/Clone/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/GetLeastNumbers/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -66,6 +56,7 @@
       <find>get</find>
       <find>System.out</find>
       <find>pre</find>
+      <find>N</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,6 +89,10 @@
         <option value="$PROJECT_DIR$/src/iluo/FindPath/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/Clone/RandomListNode.java" />
         <option value="$PROJECT_DIR$/src/iluo/Clone/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/Convert/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/Permutation/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/MoreThanHalfNum/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/GetLeastNumbers/Solution.java" />
       </list>
     </option>
   </component>
@@ -112,8 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,30 +125,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nowcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nowcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iluo" type="462c0819:PsiDirectoryNode" />
-              <item name="Clone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nowcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nowcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iluo" type="462c0819:PsiDirectoryNode" />
-              <item name="VerifySquenceOfBST" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545494969853" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546586404199" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../work/iqSystem" />
     <property name="project.structure.last.edited" value="Project" />
@@ -181,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -288,13 +269,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.IsPopOrder.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.Convert.Solution" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.IsPopOrder.*" />
+          <option name="PATTERN" value="iluo.Convert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.Permutation.Solution" />
+      <module name="nowcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.Permutation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,12 +298,12 @@
       </method>
     </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.PrintFromTopToBottom.Solution" />
+      <option name="MAIN_CLASS_NAME" value="iluo.MoreThanHalfNum.Solution" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.PrintFromTopToBottom.*" />
+          <option name="PATTERN" value="iluo.MoreThanHalfNum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,26 +312,12 @@
       </method>
     </configuration>
     <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.VerifySquenceOfBST.Solution" />
+      <option name="MAIN_CLASS_NAME" value="iluo.GetLeastNumbers.Solution" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.VerifySquenceOfBST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.FindPath.Solution" />
-      <module name="nowcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.FindPath.*" />
+          <option name="PATTERN" value="iluo.GetLeastNumbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -507,19 +488,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -557,7 +538,14 @@
       <workItem from="1545135117419" duration="8970000" />
       <workItem from="1545228687525" duration="3840000" />
       <workItem from="1545393952432" duration="3734000" />
-      <workItem from="1545491336126" duration="3628000" />
+      <workItem from="1545491336126" duration="3671000" />
+      <workItem from="1545569144757" duration="5485000" />
+      <workItem from="1545723205147" duration="1495000" />
+      <workItem from="1545884617172" duration="2501000" />
+      <workItem from="1545907715240" duration="10826000" />
+      <workItem from="1546179054548" duration="3339000" />
+      <workItem from="1546252200383" duration="4484000" />
+      <workItem from="1546582863494" duration="3549000" />
     </task>
     <task id="LOCAL-00001" summary="findKthToTail">
       <created>1543455003854</created>
@@ -608,17 +596,23 @@
       <option name="project" value="LOCAL" />
       <updated>1545232375624</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Clone">
+      <created>1545494977800</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545494977800</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66889000" />
+    <option name="totallyTimeSpent" value="98611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26814404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33130193" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -627,8 +621,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29405406" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5556757" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2508108" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32540542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -670,7 +664,9 @@
     <MESSAGE value="minStack" />
     <MESSAGE value="PrintFromTopToBottom" />
     <MESSAGE value="FindPath" />
-    <option name="LAST_COMMIT_MESSAGE" value="FindPath" />
+    <MESSAGE value="Clone" />
+    <MESSAGE value="GetLeastNumbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetLeastNumbers" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -874,8 +870,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/Clone/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/Convert/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/programFiles/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="2065" column="18" selection-start-line="2065" selection-start-column="18" selection-end-line="2065" selection-end-column="18" />
+          <folding>
+            <element signature="e#58481#58482#0" expanded="true" />
+            <element signature="e#58518#58519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/Permutation/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/MoreThanHalfNum/MoreThanHalfNum_Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/iluo/MoreThanHalfNum/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/programFiles/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/programFiles/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="1459" column="24" selection-start-line="1459" selection-start-column="24" selection-end-line="1459" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/GetLeastNumbers/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
