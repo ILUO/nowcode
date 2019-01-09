@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec1185d-1547-4651-85fa-83869b4bf693" name="Default" comment="GetLeastNumbers">
-      <change afterPath="$PROJECT_DIR$/src/iluo/Convert/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iluo/GetLeastNumbers/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iluo/MoreThanHalfNum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iluo/Permutation/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/FindGreatestSumOfSubArray/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/NumberOf1Between1AndN/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iluo/Clone/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/Clone/Solution.java" afterDir="false" />
     </list>
     <ignored path="nowcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/GetLeastNumbers/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/iluo/PrintMinNumber/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -93,6 +90,10 @@
         <option value="$PROJECT_DIR$/src/iluo/Permutation/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/MoreThanHalfNum/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/GetLeastNumbers/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/FindGreatestSumOfSubArray/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/NumberOf1Between1AndN/NumberOf1Between1AndN_30.java" />
+        <option value="$PROJECT_DIR$/src/iluo/NumberOf1Between1AndN/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/PrintMinNumber/Solution.java" />
       </list>
     </option>
   </component>
@@ -107,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,14 +131,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546586404199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547042591505" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../work/iqSystem" />
     <property name="project.structure.last.edited" value="Project" />
@@ -162,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -255,13 +256,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.Clone.Solution" />
+    <configuration name="NumberOf1Between1AndN_30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.NumberOf1Between1AndN.NumberOf1Between1AndN_30" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.Clone.*" />
+          <option name="PATTERN" value="iluo.NumberOf1Between1AndN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.NumberOf1Between1AndN.Solution" />
+      <module name="nowcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.NumberOf1Between1AndN.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,40 +285,12 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.Convert.Solution" />
+      <option name="MAIN_CLASS_NAME" value="iluo.PrintMinNumber.Solution" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.Convert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.Permutation.Solution" />
-      <module name="nowcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.Permutation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.MoreThanHalfNum.Solution" />
-      <module name="nowcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.MoreThanHalfNum.*" />
+          <option name="PATTERN" value="iluo.PrintMinNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,6 +305,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="iluo.GetLeastNumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.FindGreatestSumOfSubArray.Solution" />
+      <module name="nowcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.FindGreatestSumOfSubArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -488,19 +489,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.NumberOf1Between1AndN_30" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.NumberOf1Between1AndN_30" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +546,14 @@
       <workItem from="1545907715240" duration="10826000" />
       <workItem from="1546179054548" duration="3339000" />
       <workItem from="1546252200383" duration="4484000" />
-      <workItem from="1546582863494" duration="3549000" />
+      <workItem from="1546582863494" duration="4384000" />
+      <workItem from="1546835918637" duration="1214000" />
+      <workItem from="1546922488629" duration="7743000" />
+      <workItem from="1546937779008" duration="5000" />
+      <workItem from="1547006259681" duration="5000" />
+      <workItem from="1547006278391" duration="2270000" />
+      <workItem from="1547008568110" duration="1397000" />
+      <workItem from="1547041748034" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="findKthToTail">
       <created>1543455003854</created>
@@ -603,16 +611,23 @@
       <option name="project" value="LOCAL" />
       <updated>1545494977800</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="GetLeastNumbers">
+      <created>1546586412959</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546586412959</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98611000" />
+    <option name="totallyTimeSpent" value="112680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33130193" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36177287" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -621,8 +636,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2508108" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32540542" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1891892" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5427027" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -924,8 +939,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/GetLeastNumbers/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="629">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/FindGreatestSumOfSubArray/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/NumberOf1Between1AndN/NumberOf1Between1AndN_30.java" />
+    <entry file="file://$PROJECT_DIR$/src/iluo/NumberOf1Between1AndN/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/PrintMinNumber/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
