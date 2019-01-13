@@ -54,7 +54,7 @@ public class ReConstructBinaryTree {
     }
 
     private void preCons(TreeNode treeNode){
-        System.out.print(treeNode.val);
+//        System.out.print(treeNode.val);
         if(treeNode.left!=null){
             preCons(treeNode.left);
         }
@@ -66,7 +66,7 @@ public class ReConstructBinaryTree {
         if(treeNode.left!=null){
             inCons(treeNode.left);
         }
-        System.out.print(treeNode.val);
+//        System.out.print(treeNode.val);
         if(treeNode.right!=null){
             inCons(treeNode.right);
         }

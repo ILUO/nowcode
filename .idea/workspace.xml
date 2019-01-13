@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bec1185d-1547-4651-85fa-83869b4bf693" name="Default" comment="InversePairs">
-      <change afterPath="$PROJECT_DIR$/src/iluo/FindFirstCommonNode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iluo/GetNumberOfK/Solution.java" afterDir="false" />
+    <list default="true" id="bec1185d-1547-4651-85fa-83869b4bf693" name="Default" comment="GetNumberOfK">
+      <change afterPath="$PROJECT_DIR$/src/iluo/IsBalanced/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iluo/TreeDepth/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iluo/util/ReConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iluo/util/ReConstructBinaryTree.java" afterDir="false" />
     </list>
     <ignored path="nowcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +30,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iluo/GetNumberOfK/Solution.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iluo/TreeDepth/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="357">
+              <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iluo/IsBalanced/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,6 +72,7 @@
       <find>System.out</find>
       <find>pre</find>
       <find>N</find>
+      <find>System.out.pr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/iluo/PrintFromTopToBottom/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/iluo/HasSubtree/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/util/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/iluo/util/ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/iluo/PrintFromTopToBottom/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/VerifySquenceOfBST/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/FindPath/Solution.java" />
@@ -100,6 +118,9 @@
         <option value="$PROJECT_DIR$/src/iluo/InversePairs2/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/FindFirstCommonNode/Solution.java" />
         <option value="$PROJECT_DIR$/src/iluo/GetNumberOfK/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/util/ReConstructBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/iluo/TreeDepth/Solution.java" />
+        <option value="$PROJECT_DIR$/src/iluo/IsBalanced/Solution.java" />
       </list>
     </option>
   </component>
@@ -115,6 +136,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,17 +155,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iluo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nowcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nowcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iluo" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeDepth" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547262460582" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547343791246" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../work/iqSystem" />
     <property name="project.structure.last.edited" value="Project" />
@@ -169,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (4)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -290,13 +318,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.FirstNotRepeatingChar.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.TreeDepth.Solution" />
       <module name="nowcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iluo.FirstNotRepeatingChar.*" />
+          <option name="PATTERN" value="iluo.TreeDepth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iluo.IsBalanced.Solution" />
+      <module name="nowcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iluo.IsBalanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,20 +353,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="iluo.InversePairs2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iluo.InversePairs.Solution" />
-      <module name="nowcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iluo.InversePairs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -495,19 +523,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +590,8 @@
       <workItem from="1547041748034" duration="3538000" />
       <workItem from="1547093311286" duration="1618000" />
       <workItem from="1547171116982" duration="20272000" />
-      <workItem from="1547261753133" duration="480000" />
+      <workItem from="1547261753133" duration="3291000" />
+      <workItem from="1547341927792" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="findKthToTail">
       <created>1543455003854</created>
@@ -648,17 +677,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547195649161</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="GetNumberOfK">
+      <created>1547262468217</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547262468217</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137988000" />
+    <option name="totallyTimeSpent" value="142663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22825485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23102494" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -667,8 +703,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25945947" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34486488" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29837838" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22702703" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -715,7 +751,8 @@
     <MESSAGE value="PrintMinNumber" />
     <MESSAGE value="FirstNotRepeatingChar" />
     <MESSAGE value="InversePairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="InversePairs" />
+    <MESSAGE value="GetNumberOfK" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetNumberOfK" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -854,27 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/HasSubtree/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="112" selection-start-line="112" selection-end-line="115" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/util/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iluo/util/ReConstructBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1036,17 +1052,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/HasSubtree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" selection-start-line="118" selection-end-line="119" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/util/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/util/ReConstructBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/FindFirstCommonNode/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="992">
+          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iluo/GetNumberOfK/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="629">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/TreeDepth/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iluo/IsBalanced/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
