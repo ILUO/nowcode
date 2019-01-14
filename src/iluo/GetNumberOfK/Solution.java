@@ -26,7 +26,7 @@ public class Solution {
         if(array[mid] < k){
             return binarySearch(array,k,mid+1,end);
         }else if(array[mid] > k){
-            return binarySearch(array,k,start,end - 1);
+            return binarySearch(array,k,start,mid - 1);
         }else{
             return mid;
         }
@@ -36,7 +36,7 @@ public class Solution {
         Solution solution = new Solution();
         int []a = {1,2,3,4,4,5,5,5,5,5,6,7,8,9};
         int []b = {};
-        System.out.println(solution.GetNumberOfK(b,-1));
+        System.out.println(solution.GetNumberOfK(a,9));
     }
 
 
